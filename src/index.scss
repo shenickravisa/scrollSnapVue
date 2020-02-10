@@ -1,0 +1,13 @@
+@import "./scss/global.scss";
+body,
+html,
+.v-application {
+  overflow-y: initial !important;
+  scroll-behavior: smooth;
+  overflow: auto;
+  scroll-snap-type: y mandatory ;
+}
+
+.title {
+  @include title-style;
+}
